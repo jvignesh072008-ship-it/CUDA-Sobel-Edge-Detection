@@ -1,0 +1,15 @@
+Requirements
+  - NVIDIA GPU with a recent driver
+  - CUDA Toolkit 11.6 or newer (nvcc)
+  - GCC 9 or newer (C++17), make, curl
+
+Linux / Google Colab / Kaggle
+  1. git clone https://github.com/jvignesh072008-ship-it/CUDA-Sobel-Edge-Detection.git
+  2. cd CUDA-Sobel-Edge-Detection
+  3. make ARCH=sm_75        # sm_75 = T4, sm_60 = P100, sm_80 = A100
+  4. chmod +x run.sh
+  5. ./run.sh data output 16
+
+Windows
+  Use Google Colab or Kaggle, or WSL2 with the CUDA toolkit and follow the
+  Linux steps.

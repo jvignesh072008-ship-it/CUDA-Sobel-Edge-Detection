@@ -1,0 +1,5 @@
+bin/sobel_batch
+output/
+output_*/
+*.zip
+lib/stb_*.h
