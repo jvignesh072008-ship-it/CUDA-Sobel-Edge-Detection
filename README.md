@@ -1,6 +1,6 @@
 # Batch Sobel Edge Detection with CUDA
 
-Author:  J
+Author: Vignesh J
 
 ## Overview
 This project applies Sobel edge detection to a whole folder of images on the
